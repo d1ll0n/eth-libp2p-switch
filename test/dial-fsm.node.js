@@ -8,14 +8,14 @@ const expect = chai.expect
 chai.use(require('chai-checkmark'))
 chai.use(dirtyChai)
 const sinon = require('sinon')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 const parallel = require('async/parallel')
 const WS = require('libp2p-websockets')
 const TCP = require('libp2p-tcp')
-const secio = require('libp2p-secio')
+const secio = require('eth-libp2p-secio')
 const multiplex = require('pull-mplex')
 const pull = require('pull-stream')
-const identify = require('libp2p-identify')
+const identify = require('eth-libp2p-identify')
 
 const utils = require('./utils')
 const createInfos = utils.createInfos

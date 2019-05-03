@@ -8,7 +8,7 @@ chai.use(require('chai-checkmark'))
 chai.use(dirtyChai)
 const sinon = require('sinon')
 
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 const Queue = require('../src/dialer/queue')
 const QueueManager = require('../src/dialer/queueManager')
 const Switch = require('../src')

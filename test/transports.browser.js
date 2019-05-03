@@ -6,9 +6,9 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
-const PeerBook = require('peer-book')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerBook = require('eth-peer-book')
 const WebSockets = require('libp2p-websockets')
 
 const tryEcho = require('./utils').tryEcho

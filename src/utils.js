@@ -1,6 +1,6 @@
 'use strict'
 
-const Identify = require('libp2p-identify')
+const Identify = require('eth-libp2p-identify')
 
 /**
  * For a given multistream, registers to handle the given connection

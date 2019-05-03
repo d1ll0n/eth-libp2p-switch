@@ -12,8 +12,8 @@ const series = require('async/series')
 const TCP = require('libp2p-tcp')
 const multiplex = require('libp2p-mplex')
 const pull = require('pull-stream')
-const secio = require('libp2p-secio')
-const PeerBook = require('peer-book')
+const secio = require('eth-libp2p-secio')
+const PeerBook = require('eth-peer-book')
 
 const utils = require('./utils')
 const createInfos = utils.createInfos

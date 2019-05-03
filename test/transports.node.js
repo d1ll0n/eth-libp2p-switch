@@ -10,7 +10,7 @@ const parallel = require('async/parallel')
 const TCP = require('libp2p-tcp')
 const WS = require('libp2p-websockets')
 const pull = require('pull-stream')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 
 const utils = require('./utils')
 const createInfos = utils.createInfos

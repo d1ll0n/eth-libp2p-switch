@@ -8,7 +8,7 @@ const expect = chai.expect
 chai.use(dirtyChai)
 
 const { EventEmitter } = require('events')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 const Duplex = require('pull-pair/duplex')
 
 const utils = require('./utils')

@@ -118,7 +118,7 @@ Enable a specified crypto protocol. By default no encryption is used, aka `plain
 You can use for example [libp2p-secio](https://github.com/libp2p/js-libp2p-secio) like this
 
 ```js
-const secio = require('libp2p-secio')
+const secio = require('eth-libp2p-secio')
 switch.connection.crypto(secio.tag, secio.encrypt)
 ```
 

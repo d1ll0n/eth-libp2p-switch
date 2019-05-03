@@ -1,11 +1,11 @@
 'use strict'
 
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const parallel = require('async/parallel')
 const WebSockets = require('libp2p-websockets')
 const pull = require('pull-stream')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 
 const Switch = require('./src')
 const mplex = require('pull-mplex')

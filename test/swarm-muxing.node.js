@@ -14,7 +14,7 @@ const mplex = require('libp2p-mplex')
 const pMplex = require('pull-mplex')
 const spdy = require('libp2p-spdy')
 const pull = require('pull-stream')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 
 const utils = require('./utils')
 const createInfos = utils.createInfos

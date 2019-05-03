@@ -6,9 +6,9 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 
-const PeerBook = require('peer-book')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerBook = require('eth-peer-book')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const MultiAddr = require('multiaddr')
 const TestPeerInfos = require('./test-data/ids.json').infos
 
@@ -25,7 +25,7 @@ describe('Get peer info', () => {
     PeerId.createFromJSON(TestPeerInfos[0].id, (err, id) => {
       peerIdA = id
       peerInfoA = new PeerInfo(peerIdA)
-      multiaddrA = MultiAddr('/ipfs/QmdWYwTywvXBeLKWthrVNjkq9SafEDn1PbAZdz4xZW7Jd9')
+      multiaddrA = MultiAddr('/ipfs/W1oFnXLUMkCPAZAFrvAVsQT9Gw6YUQCou5AtmgxdNYj4sF')
       peerInfoA.multiaddrs.add(multiaddrA)
       peerBook.put(peerInfoA)
       done(err)

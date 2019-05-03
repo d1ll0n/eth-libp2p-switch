@@ -13,7 +13,7 @@ const series = require('async/series')
 const TCP = require('libp2p-tcp')
 const WS = require('libp2p-websockets')
 const multiplex = require('pull-mplex')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 const getPorts = require('portfinder').getPorts
 
 const utils = require('./utils')

@@ -1,7 +1,7 @@
 'use strict'
 
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
 const multiaddr = require('multiaddr')
 
 /**
@@ -14,7 +14,7 @@ const multiaddr = require('multiaddr')
  */
 function getPeerInfo (peer, peerBook) {
   let peerInfo
-
+  console.log(peer)
   // Already a PeerInfo instance,
   // add to the peer book and return the latest value
   if (PeerInfo.isPeerInfo(peer)) {

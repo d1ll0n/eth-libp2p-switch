@@ -5,12 +5,12 @@ const chai = require('chai')
 const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
 const WebRTCStar = require('libp2p-webrtc-star')
 const parallel = require('async/parallel')
 const pull = require('pull-stream')
-const PeerBook = require('peer-book')
+const PeerBook = require('eth-peer-book')
 const tryEcho = require('./utils').tryEcho
 
 const Switch = require('../src')

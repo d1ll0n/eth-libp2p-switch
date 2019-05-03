@@ -1,7 +1,7 @@
 'use strict'
 
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const parallel = require('async/parallel')
 const pull = require('pull-stream')
 const chai = require('chai')
