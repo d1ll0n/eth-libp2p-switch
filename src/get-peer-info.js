@@ -14,7 +14,6 @@ const multiaddr = require('multiaddr')
  */
 function getPeerInfo (peer, peerBook) {
   let peerInfo
-  console.log(peer)
   // Already a PeerInfo instance,
   // add to the peer book and return the latest value
   if (PeerInfo.isPeerInfo(peer)) {
