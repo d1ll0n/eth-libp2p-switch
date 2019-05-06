@@ -21,16 +21,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/libp2p/js-libp2p-switch.git"
+    "url": "https://github.com/d1ll0n/eth-libp2p-switch.git"
   },
   "keywords": [
     "IPFS"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p-switch/issues"
+    "url": "https://github.com/d1ll0n/eth-libp2p-switch/issues"
   },
-  "homepage": "https://github.com/libp2p/js-libp2p-switch",
+  "homepage": "https://github.com/d1ll0n/eth-libp2p-switch",
   "pre-push": [
     "lint"
   ],
