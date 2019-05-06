@@ -1,6 +1,6 @@
 {
   "name": "eth-libp2p-switch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "libp2p switch implementation in JavaScript",
   "main": "src/index.js",
   "files": [
